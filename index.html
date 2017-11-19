@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Photo Quiz</h1>
+    </header>
+    <div class="quiz">
+      <div class="prefs">
+        <div class="prefs-wrapper">
+          <button class="mode">Direct Mode</button>
+          <button class="hint">Hint</button>
+          <div class="hint-modal">
+            <div class="modal-body">
+              <span>&times;</span>
+              <div class="theHint">
+              <h3>Hint!</h3>
+              <p></p>
+              </div>
+              <div class="gameover">
+                <h3>Game over</h3>
+                 <p></p>
+                <button class="resetBtn">replay</button>
+              </div>
+            </div>
+          </div>
+          <button class="skip">Skip</button>
+        </div>
+      </div>
+      <div class="img-quest">
+        <img src="download.jpg" alt="No image found">
+        <h3>Who is in the picture?</h3>
+      </div>
+      <div class="options">
+        <div>
+          <div><span>A.</span><h6 class="option">Torvalds Linus</h6></div>
+          <div><span>B.</span><h6 class="option">Tim cook</h6></div>
+        </div>
+        <div>
+          <div><span>C.</span><h6 class="option">Mark Zuckerberg</h6></div>
+          <div><span>D.</span><h6 class="option">Bill Gates</h6></div>
+        </div>
+      </div>
+      <div class="input-mode">
+        <input type="text"/><button>Next</button>
+      </div>
+      <div class="quest-num">Question X of Y</div>
+    </div>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>		
